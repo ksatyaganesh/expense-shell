@@ -33,7 +33,7 @@ then
 fi
 }
 
-mkdir -p /var/log/expense-logs
+mkdir -p $LOGS_FOLDER
 echo "Script started executing at: $TIMESTAMP" &>>$LOG_FILE_NAME
 
 CHECK_ROOT
